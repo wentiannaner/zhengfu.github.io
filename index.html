@@ -5,11 +5,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>vlog</title>
+    <title>张正虎-个人博客</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./assets/personinfo/ico.png" sizes="32*32">
 </head>
 
 <body>
-    <p>a great website for Mr.zhang</p>
+   <div class="wrapper" id="app">
+    <header>
+        <div class="headwrap">
+            <div class="bg1">
+                <img src="./assets/personinfo/head.jpg" alt="">
+            </div>
+            <div class="bg2">
+                <img src="./assets/personinfo/ban.png" alt="">
+            </div>
+            <div class="bg3">
+                <div class="bginfo">
+                    <li><span>NTTDATA（中国）</span><img src="https://weapp.test.cnfic.com.cn/weappfile/assets/card/floor.png" alt=""></li>
+                    <li class="person">
+                        <dd>
+                            <h5>张正虎</h5>
+                            <h6>前端工程师</h6>
+                        </dd>
+                        <dt>
+                            <img src="./assets/personinfo/webwxgetmsgimg.jpeg" alt="" class="code">
+                        </dt>
+                    </li>
+                    <li><span>18800139467</span><img src="./assets/personinfo/tel.png" alt=""></li>
+                    <li class="graytxt"><span>18800139467@163.com</span><img src="./assets/personinfo/emial.png" alt=""></li>
+                    <li class="graytxt"><span>北京市昌平区 回龙观新龙城二期1506C</span><img src="./assets/personinfo/map.png" alt=""></li>
+                </div>
+            </div>
+        </div>
+    </header>
+    <aside>
+        <div>编辑信息</div>
+        <div>转发获客</div>
+    </aside>
+    <section>
+        <ul>
+            <li>
+                <div class="des">
+                    <img src="./assets/personinfo/per.png" alt="">
+                    <span>个人简介</span>
+                </div>
+                <div class="content">
+                    资深前端工程师，熟练HTML5、CSS3、Vue、React、Angurlar框架。熟练Node.js、独立开发Sass系统、h5、小程序、公众号、app混合开发。
+                </div>
+            </li>
+            <div class="emptygray"></div>
+            <li>
+                <div class="des">
+                    <img src="./assets/personinfo/kline.png" alt="">
+                    <span>从业经历</span>
+                </div>
+                <div class="content">
+                    <aside class="companys"><span>东道（品牌设计）</span>
+                        <img src="./assets/personinfo/dongdao.jpg" alt="" class="companylogo">
+                    </aside>
+                    <aside class="companys"><span>字节跳动</span>
+                        <img src="./assets/personinfo/bytedance.jpg" alt="" class="companylogo">
+                    </aside>
+                    <aside class="companys"><span>一下科技</span>
+                        <img src="./assets/personinfo/yixia.jpg" alt="" class="companylogo">
+                    </aside>
+                    <aside class="companys"><span>NTTDATA（中国）</span>
+                        <img src="./assets/personinfo/nttdata.jpg" alt="" class="companylogo">
+                    </aside>
+                </div>
+            </li>
+        </ul>
+    </section>
+   </div>
+   <script src="https://cdn.bootcss.com/vue/2.6.7/vue.js"></script>
+   <script>
+       new Vue({
+           el:"#app",
+           data(){
+               return{
+                   msg:"hello world!"
+               }
+           }
+       })
+   </script>
 </body>
 
 </html>
