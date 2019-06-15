@@ -11,7 +11,9 @@
         if(navigator.geolocation){
             function success(target){
                 console.log(target)
-                
+                alert(target.coords.latitude)
+                alert(target.coords.longitude)
+            alert("Your position: " + latitude + ", " + longitude);
             }
             function error(e){
                 console.log(e)
