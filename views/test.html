@@ -9,6 +9,7 @@
 <body>
     <script>
         if(navigator.geolocation){
+            alert("允许使用")
             function success(target){
                 console.log(target)
                 alert(target.coords.latitude)
