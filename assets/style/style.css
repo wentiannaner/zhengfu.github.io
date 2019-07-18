@@ -1,224 +1,238 @@
 * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 html,
 body {
-  width: 100%;
-  height: 100%;
-  background: #f2f2f2;
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2;
 }
 
 header {
-  width: 100%;
-  height: auto;
-  padding: 10px 15px;
+    width: 100%;
+    height: auto;
+    padding: 10px 15px;
 }
 
 .headwrap {
-  width: 100%;
-  height: 180px;
-  background: #fff;
-  border-radius: 10px;
-  position: relative;
-  overflow: hidden;
+    width: 100%;
+    height: 180px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
 }
 
 .bg1,
 .bg2,
 .bg3 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .bg1 {}
 
 .bg1 img {
-  width: 40%;
-  height: 100%;
+    width: 40%;
+    height: 100%;
 }
 
 .bg2 {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .bg2 img {
-  width: 75%;
-  height: 100%;
+    width: 75%;
+    height: 100%;
 }
 
 .bg3 {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .bg3 .bginfo {
-  width: 70%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .bginfo li {
-  display: flex;
-  width: 100%;
-  justify-content: flex-end;
-  padding-right: 5px;
-  font-size: 12px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 5px;
+    font-size: 12px;
 }
 
 .bginfo li span {
-  margin-right: 5px;
+    margin-right: 5px;
 }
 
 .bginfo .person {
-  display: flex;
+    display: flex;
 }
 
 .bginfo .person dd {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 .bginfo .person dd h5 {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .bginfo .person dd h6 {
-  margin-top: 10px;
-  color: #999999;
+    margin-top: 10px;
+    color: #999999;
 }
 
 .bginfo .person dt {
-  width: 50px;
-  height: 50px;
+    width: 50px;
+    height: 50px;
 }
-.bginfo .person dt .code{
-  width:100%;
-  height: 100%;
+
+.bginfo .person dt .code {
+    width: 100%;
+    height: 100%;
 }
+
 .bginfo li:nth-of-type(1) {
-  height: 40px;
-  line-height: 40px;
-  display: flex;
-  align-items: center;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .bginfo li:nth-of-type(1) img {
-  width: 20px;
-  height: 20px;
+    width: 20px;
+    height: 20px;
 }
 
 .bginfo li:nth-of-type(2) {
-  height: 60px;
+    height: 60px;
 }
 
 .bginfo li.graytxt span {
-  color: #999999;
+    color: #999999;
 }
 
 .bginfo li img {
-  width: 15px;
-  height: 15px;
+    width: 15px;
+    height: 15px;
 }
 
 .bginfo li:nth-of-type(3),
 .bginfo li:nth-of-type(4),
 .bginfo li:nth-of-type(5) {
-  margin-top: 8px;
+    margin-top: 8px;
 }
 
 aside {
-  width: 100%;
-  padding: 0 15px;
-  display: flex;
-  justify-content: space-between;
-  margin: 5px 0 15px 0;
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 15px 0;
 }
 
 aside div {
-  flex: 1;
-  height: 35px;
-  text-align: center;
-  line-height: 35px;
-  border-radius: 8px;
+    flex: 1;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 8px;
+    position: relative;
 }
 
 aside div:nth-of-type(1) {
-  margin-right: 10px;
-  border: 1px solid #F24930;
-  color: #F24930;
+    margin-right: 10px;
+    border: 1px solid #F24930;
+    color: #F24930;
 }
 
 aside div:nth-of-type(2) {
-  margin-left: 10px;
-  background: #E8313E;
-  color: #fff;
+    margin-left: 10px;
+    background: #E8313E;
+    color: #fff;
+}
+
+.touchTel a.touch {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 section {
-  width: 100%;
-  height: auto;
-  background: #fff;
+    width: 100%;
+    height: auto;
+    background: #fff;
 }
 
 section ul {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 section ul li {
-  width: 100%;
-  height: auto;
-  padding: 0 15px;
+    width: 100%;
+    height: auto;
+    padding: 0 15px;
 }
 
 section ul li .des {
-  border-bottom: 1px solid #E6E6E6;
-  display: flex;
-  align-items: center;
-  height: 35px;
+    border-bottom: 1px solid #E6E6E6;
+    display: flex;
+    align-items: center;
+    height: 35px;
 }
 
 section ul li .des img {
-  width: 16px;
-  height: 16px;
+    width: 16px;
+    height: 16px;
 }
 
 section .emptygray {
-  width: 100%;
-  height: 20px;
-  background: #f2f2f2;
+    width: 100%;
+    height: 20px;
+    background: #f2f2f2;
 }
 
 section ul li .des span {
-  margin-left: 5px;
-  font-size: 14px;
+    margin-left: 5px;
+    font-size: 14px;
 }
 
 section ul li .content {
-  color: #666666;
-  font-size: 14px;
-  padding: 15px 0;
+    color: #666666;
+    font-size: 14px;
+    padding: 15px 0;
 }
 
-.companys{
-  width:100%;
-  height: auto;
-  display: flex;
-  align-items: center;
+.companys {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
 }
-.companys aside{
-  display: flex;
-  justify-content: center;
+
+.companys aside {
+    display: flex;
+    justify-content: center;
 }
-.companys img{
-  width:50px;
-  height: 50px;
+
+.companys img {
+    width: 50px;
+    height: 50px;
 }
