@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>正虎-官网</title>
+    <link rel="icon" href="../assets/image/personinfo/ico.png" sizes="32*32">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        background: #fff;
+    }
+    
+    .wrapper {
+        width: 100%;
+        height: auto;
+    }
+    
+    header {
+        width: 100%;
+        height: 60px;
+        background: #2b303b;
+    }
+    
+    main {
+        width: 100%;
+        height: 1800px;
+    }
+    
+    body::-webkit-scrollbar {
+        width: 5px;
+        height: 10px;
+        background-color: #DCD9D4;
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), radial-gradient(at 50% 0%, rgba(255, 255, 255, 0.10) 0%, rgba(0, 0, 0, 0.50) 50%);
+        background-blend-mode: soft-light, screen;
+    }
+    
+    body::-webkit-scrollbar-track {
+        /* -webkit-box-shadow: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+        border-radius: 10px;
+        background-color: black; */
+    }
+    
+    body::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3); */
+        background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    }
+    
+    footer {
+        width: 100%;
+        height: 180px;
+        background: #45484C;
+    }
+    
+    footer .advantage {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    
+    footer .advantage .itemcircle {
+        width: 25%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+    
+    .advantage .itemcircle .role {
+        width: 180px;
+        height: 100px;
+    }
+    
+    .itemcircle .role .textwrap {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        animation: run 1s linear infinite;
+    }
+    
+    .role .textwrap .text {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        line-height: 80px;
+        color: #fff;
+        font-size: 16px;
+        animation: runs 1s linear infinite;
+    }
+    
+    @keyframes run {
+        to {
+            transform: rotateZ(360deg)
+        }
+    }
+    
+    @keyframes runs {
+        to {
+            transform: rotateZ(-360deg)
+        }
+    }
+    
+    main .bg {
+        width: 100%;
+        height: 500px;
+    }
+    
+    main .bg .bgimg {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <header>
+
+        </header>
+        <main>
+            <div class="bg">
+                <h1 style="text-align:center">正虎官网</h1>
+            </div>
+            <div class="bgground"></div>
+        </main>
+        <footer>
+            <!-- 放四个有点  左侧为自我总结及性格分析 -->
+            <div class="advantage">
+                <div class="itemcircle">
+                    <div class="role">
+                        <div class="textwrap">
+                            <div class="text">秀</div>
+                        </div>
+                        <div class="details">
+                            <div class="charactor"></div>
+                            <div class="subcribe"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemcircle">
+                    <div class="role">
+                        <div class="textwrap">
+                            <div class="text">秀</div>
+                        </div>
+                        <div class="details">
+                            <div class="charactor"></div>
+                            <div class="subcribe"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemcircle">
+                    <div class="role">
+                        <div class="textwrap">
+                            <div class="text">秀</div>
+                        </div>
+                        <div class="details">
+                            <div class="charactor"></div>
+                            <div class="subcribe"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemcircle">
+                    <div class="role">
+                        <div class="textwrap">
+                            <div class="text">秀</div>
+                        </div>
+                        <div class="details">
+                            <div class="charactor"></div>
+                            <div class="subcribe"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        if (window.innerWidth < 760) {
+            window.location.href = "../index.html"
+        }
+    </script>
+</body>
+
+</html>
